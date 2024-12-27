@@ -1,12 +1,10 @@
 
 
-# codsoft internship projects:
+# CodSoft internship projects:
 Task 1:Landing page
       A landing page is a first step of a web page development as a beginner,In this project I learnt how to make a page in a responsive way.
       I have used HTML to create the basic structure of landing page,css to make a page a visually appealing for the visitor and media query for responsive of the landing page.
       Bootstrap for creating the carousel by this i have learn to use the Bootstrap library
-      
-
 
 Task2: Portfolio
       Created my personal portfolio using HTML,CSS,Bootstrap
@@ -17,8 +15,9 @@ Task2: Portfolio
 
 Task3:Calculator
       created a simple calculator using HTML,CSS and Javascript.
-      created a calculatorin responsive way.
+      created a calculator in responsive way and checked for equal no of paranthesis while entering the value for calculation.
       By doing this project i have learnt about basic of javascript in better way.
 
-Thankyou Codsoft
+Thankyou #CodSoft
+
       
