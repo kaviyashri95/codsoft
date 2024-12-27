@@ -1,0 +1,110 @@
+@media (max-width: 1100px) {
+  .img1 {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .homepage {
+    display: flex;
+
+    gap: 3rem;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  #img0 {
+    max-width: 80%;
+    min-width: 30%;
+  }
+  .experience_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    min-height: 30vh;
+  }
+  .aboutpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50vh;
+    gap: 3rem;
+    padding: 100px 60px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .pro1 {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .style {
+    width: 100% !important;
+  }
+}
+@media (max-width: 800px) {
+  .skill_flex {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    min-height: 80vh;
+  }
+  .resume_container {
+    display: flex;
+
+    flex-flow: column;
+    gap: 2rem;
+  }
+  .contact form {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .togglebtn {
+    display: block;
+    color: var(--pink);
+  }
+  .menu {
+    display: block;
+  }
+  header ul {
+    display: none;
+  }
+  header {
+    background: linear-gradient(to right, var(--brown) 100%, var(--brown));
+  }
+  .homepage {
+    background: linear-gradient(to right, var(--brown) 100%, var(--brown));
+  }
+  .contact form {
+    padding-right: 20px;
+  }
+  .contact input {
+    width: 90%;
+    height: 45px;
+  }
+  textarea {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    left: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .style {
+    width: 100% !important;
+  }
+  .experience_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    min-height: 40vh;
+  }
+}
