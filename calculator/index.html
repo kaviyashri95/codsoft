@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="cal_screen">
+      <!-- <h1>Calculator</h1> -->
+      <div class="cal_container">
+        <input type="text" class="screen" placeholder="0" />
+        <div class="button_container" id="buttons">
+          <button type="submit" class="cell red" data-value="AC">AC</button>
+          <button type="submit" class="cell red" data-value="del">DEL</button>
+          <button type="submit" class="cell pink" data-value="%">%</button>
+          <button type="submit" class="cell pink" data-value="/">/</button>
+
+          <button type="submit" class="cell grey" data-value="7">7</button>
+          <button type="submit" class="cell grey" data-value="8">8</button>
+          <button type="submit" class="cell grey" data-value="9">9</button>
+          <button type="submit" class="cell pink" data-value="*">*</button>
+
+          <button type="submit" class="cell grey" data-value="4">4</button>
+          <button type="submit" class="cell grey" data-value="5">5</button>
+          <button type="submit" class="cell grey" data-value="6">6</button>
+          <button type="submit" class="cell pink" data-value="-">-</button>
+
+          <button type="submit" class="cell grey" data-value="1">1</button>
+          <button type="submit" class="cell grey" data-value="2">2</button>
+          <button type="submit" class="cell grey" data-value="3">3</button>
+          <button type="submit" class="cell pink" data-value="+">+</button>
+
+          <button type="submit" class="cell grey" data-value="(">(</button>
+          <button type="submit" class="cell grey" data-value=")">)</button>
+          <button type="submit" class="cell grey" data-value="0">0</button>
+          <button type="submit" class="cell pink" data-value=".">.</button>
+
+          <button type="submit" class="cell eql red" data-value="=">=</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./calculator.js"></script>
+  </body>
+</html>
